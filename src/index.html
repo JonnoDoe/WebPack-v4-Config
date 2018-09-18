@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="project-author-name">
+        <meta name="description" content="project-description">
+        <title>project-name</title>
+        <link rel="stylesheet" type="text/html" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <script type="text/html" src="<%= htmlWebpackPlugin.files.chunks.app.entry %>"></script>
+    </body>
+</html>
